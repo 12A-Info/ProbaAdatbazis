@@ -40,6 +40,7 @@ namespace ProbaAdatbazis
             this.Torol = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Gomb = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -137,11 +138,21 @@ namespace ProbaAdatbazis
             this.textBox3.Size = new System.Drawing.Size(172, 20);
             this.textBox3.TabIndex = 10;
             // 
+            // Gomb
+            // 
+            this.Gomb.Location = new System.Drawing.Point(368, 209);
+            this.Gomb.Name = "Gomb";
+            this.Gomb.Size = new System.Drawing.Size(75, 23);
+            this.Gomb.TabIndex = 11;
+            this.Gomb.Text = "Gomb";
+            this.Gomb.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Gomb);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Torol);
@@ -174,6 +185,7 @@ namespace ProbaAdatbazis
         private System.Windows.Forms.Button Torol;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button Gomb;
     }
 }
 
